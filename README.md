@@ -58,8 +58,11 @@ Where df is degrees of freedom used in our model fit.
 
 AIC is trying to estimate the OOS deviance i.e. what your deviance would be in another sample of size n. Usually the lower the AIC value, the better the model is. It is commonly believed that AIC does not perform well when the sample size is small. In fact, AIC is only good for big n/df
 In big data, the number of parameters can be huge. Often df=n. In those cases, AIC tends to overfit. AICc (corrected AIC) is an adjusted version of AIC that is used when the sample size is small or df is too big. It corrects for the bias that can occur when the sample size is small or df is too big. 
+
 AICc is calculated as:
+
 AICc = Deviance + 2df(n/(n-df-1))
+
 AICc is a more robust measure of model fit than AIC in many cases, as it adjusts for the bias that can occur when the sample size is small or df is too big.
 
 
