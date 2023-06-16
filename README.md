@@ -11,6 +11,6 @@ $$\mathbb{E}[y|x]=f(x\beta)$$
 
 The 2 main metrics we use the assess the predictive performance of the model are **Likelihood** and **Deviance**:
 
-The likelihood is defined as:
+* $$LHD = p(y_{1}|x_{1}) * p(y_{2}|x_{2})...*p(y_{n}|x_{n})$$
 
-$$LHD = p(y_{1}|x_{1}) * p(y_{2}|x_{2})...*p(y_{n}|x_{n})$$
+* Deviance is proportional to $-log(LHD)$.
