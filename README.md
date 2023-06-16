@@ -9,5 +9,8 @@ In General, for Linear Regression the model is always in the form of:
 
 $$\mathbb{E}[y|x]=f(x\beta)$$
 
-The 2 main metrics we use the assess the predictive performance of the model is **Likelihood** and **Deviance**
+The 2 main metrics we use the assess the predictive performance of the model are **Likelihood** and **Deviance**:
 
+The likelihood is defined as:
+
+$$LHD = p(y_{1}|x_{1}) * p(y_{2}|x_{2})...*p(y_{n}|x_{n})$$
