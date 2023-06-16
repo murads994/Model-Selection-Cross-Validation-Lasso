@@ -54,7 +54,8 @@ Some of the Cons of using Lasso Regression are:
 AIC(Akaike Information Criterion) is a way to measure the relative quality of regression models. It is very commonly used to compare different regression models and to select the best model among them. 
 
 AIC = Deviance + 2df
-Where df is degrees of freedom used in our model fit. 
+
+where df is degrees of freedom used in our model fit. 
 
 AIC is trying to estimate the OOS deviance i.e. what your deviance would be in another sample of size n. Usually the lower the AIC value, the better the model is. It is commonly believed that AIC does not perform well when the sample size is small. In fact, AIC is only good for big n/df
 In big data, the number of parameters can be huge. Often df=n. In those cases, AIC tends to overfit. AICc (corrected AIC) is an adjusted version of AIC that is used when the sample size is small or df is too big. It corrects for the bias that can occur when the sample size is small or df is too big. 
