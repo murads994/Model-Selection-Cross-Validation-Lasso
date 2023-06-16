@@ -7,5 +7,5 @@ Then, we will Fit a simple linear regression model (full model) to predict the h
 
 In General, for Linear Regression the model is always in the form of: 
 
-$$\mathbb{E}$$
+$$\mathbb{E}[y|x]=f(x\beta)$$
 
