@@ -16,8 +16,8 @@ The 2 main metrics we use the assess the predictive performance of the model are
 * $\beta$ is commonly fit to maximize LHD or minimize Deviance.
 * Fit is summarized by $R^{2} = 1 - \frac{dev(\beta)}{dev(\beta = 0)}$
 
-In real-life settings, we never care about the in-sample $R^2$ value of the model for predictive analytics purposes. The only thing we care about is the Out of Sample $R^{2)$ value. 
+In real-life settings, we never care about the in-sample $R^2$ value of the model for predictive analytics purposes. The only thing we care about is the Out of Sample $R^{2}$ value. 
 
 The main difference between out-of-sample and in-sample $R^2$ values is what data is used to fit $\beta$'s and what data deviances are calculated on. 
 * For in sample $R^2$ we use the same data to fit $\beta$'s and also to calculate Deviance.
-* For out of sample $R^2$ we use the training data to fit $\beta$'s, and the deviances are now calculated on new observations (test sample).
+* For out-of-sample $R^2$ we use the training data to fit $\beta$'s, and the deviances are now calculated on new observations (test sample).
